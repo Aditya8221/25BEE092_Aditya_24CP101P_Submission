@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main() {
+
+    int a = 21 , b = 8 ,product;
+    product = a * b;
+    printf("The product of 21 and 8 is :%d",product);
+    return 0;
+
+}

@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main() {
+
+    int a = 21 , b = 8 ,sum;
+    sum = a + b;
+    printf("The sum of 21 and 8 is :%d",sum);
+    return 0;
+
+}

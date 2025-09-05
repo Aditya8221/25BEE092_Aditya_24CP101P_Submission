@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main() {
+
+    float a = 21 , b = 8 ,qutiont;
+    qutiont = a / b;
+    printf("The qutiont of 21 and 8 is :%f",qutiont);
+    return 0;
+
+}
