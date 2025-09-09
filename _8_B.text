@@ -1,0 +1,13 @@
+// Convert Dollars to Rupees
+#include<stdio.h>
+int main () {
+
+    int dollar,rupee;
+
+    printf("Enter amount in Dollars : $");
+    scanf("%d",& dollar);
+
+    rupee = dollar * 48; 
+    printf("The amount in rupees is :Rs%d",rupee);
+    return 0;
+}

@@ -1,0 +1,14 @@
+// Convert Hours to Minutes
+#include<stdio.h>
+int main() {
+
+    int hours,minutes;
+    printf("Enter the time in Hours:");
+    scanf("%d",&hours);
+
+    minutes = hours  * 60;
+
+    printf("The time in Minutes : %d",minutes);
+    return 0;
+
+}

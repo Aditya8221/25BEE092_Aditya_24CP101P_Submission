@@ -1,0 +1,14 @@
+// Convert Dollars to Pounds
+#include<stdio.h>
+int main () {
+
+    int dollar,pound;
+
+    printf("Enter amount in Dollars : $");
+    scanf("%d",& dollar);
+
+    pound = dollar * 0.6857; 
+    printf("The amount in Pound is :₤%d",pound);
+    return 0;
+    
+}
